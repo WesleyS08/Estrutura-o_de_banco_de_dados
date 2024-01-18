@@ -8,7 +8,8 @@ Este projeto simula a necessidade de uma imobiliária lidar com as informações
 
 Como citado anteriormente, realizamos a estruturação de um banco de dados. Uma das etapas iniciais foi a criação de um modelo MER.
 
-![Modelo MER](/projeto_2/imagens/modelo_mer.png)
+![modelo mer](/imagens/modelo.png)
+
 
 ## Script de Criação 
 
@@ -33,13 +34,15 @@ CREATE TABLE IF NOT EXISTS `iziImoveis`.`Tb_Secao` (
   PRIMARY KEY (`idTb_Secao`))
 ENGINE = InnoDB;
 ...
-
+````
 ## População dos scripts 
 
 por estamos lidando com uma quantidade massiva de tabelas e informaçoes foi ultilizado programas de terceiros para popuar os scripts que nesse foi usado o site [Mockaroo](https://www.mockaroo.com/)
 gerando um resultado similar a esse : 
-![mockaroo](projeto 2/imagens/mockarro.png)
+
+![Script](/imagens/mockarro.png)
 
 ## Power BI
 
-E para realizar a analise das informaçoes necessarios usamos o power bi gerando assim uma [apresentação](https://app.powerbi.com/view?r=eyJrIjoiZmE1NmE4NDEtMWFlYy00MzI0LWFhODAtZThiOGVjMjZlNzZlIiwidCI6ImNmNzJlMmJkLTdhMmItNDc4My1iZGViLTM5ZDU3YjA3Zjc2ZiIsImMiOjR9&embedImagePlaceholder=true) apos a montegem das informaçoes chegamos nesse resultado ![power bi](projeto 2/imagens/imagem.png)
+E para realizar a analise das informaçoes necessarios usamos o power bi gerando assim uma [apresentação](https://app.powerbi.com/view?r=eyJrIjoiZmE1NmE4NDEtMWFlYy00MzI0LWFhODAtZThiOGVjMjZlNzZlIiwidCI6ImNmNzJlMmJkLTdhMmItNDc4My1iZGViLTM5ZDU3YjA3Zjc2ZiIsImMiOjR9&embedImagePlaceholder=true) apos a montegem das informaçoes chegamos nesse resultado
+![Apresentação](/imagens/imagem.png)
