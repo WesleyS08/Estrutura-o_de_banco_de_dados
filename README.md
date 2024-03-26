@@ -8,7 +8,7 @@ Este projeto simula a necessidade de uma imobiliária lidar com as informações
 
 Como citado anteriormente, realizamos a estruturação de um banco de dados. Uma das etapas iniciais foi a criação de um modelo MER.
 
-![modelo mer](/imagens/modelo.png)
+![modelo mer](/imagens/imóvelfacil.png)
 
 
 ## Script de Criação 
